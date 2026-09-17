@@ -5,4 +5,15 @@ body {
 h1 {
 
     background-color:paleturquoise;
+    font-family: "superior title", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 100px;
+    color: orchid;
+
+}
+
+.center-text {
+    text-align: center;
+    /* background-color:lavenderblush; */
 }
