@@ -2,7 +2,7 @@ body {
 
     max-width: 1000px;
     margin: auto;
-     background-image: url("vanderpump-background-2.png");
+     background-image: url("vanderpump-background-4.png");
      background-repeat: no repeat;
      background-attachment: fixed;
      background-size: cover;
@@ -26,6 +26,8 @@ h1 {
     font-style: normal;
     font-size: 100px;
     color:purple;
+    text-decoration-style: dotted;
+    
 }
 
 h2 {
@@ -37,6 +39,15 @@ h2 {
     color:purple;
     text-align: right;
 
+}
+
+h3 {
+     font-family: "forma-djr-deck", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 100px;
+    color:purple;
+    display:inline-block;
 }
 
 button {
@@ -60,7 +71,8 @@ button {
   right: 50%;
   margin-left: -49vw;
   margin-right: -49vw;
-  background-color:palegoldenrod;
+  background-color:rgb(238, 232, 170 / 70%);
+  
 /* testing */
   
 
@@ -69,18 +81,6 @@ button {
     
 }
 
-/* #demo { */
-
-    /* background-image: url("https://i.pinimg.com/originals/43/fc/ff/43fcffd34c02d387230cd16b1523039f.gif"); */
-    /* width:100%; */
-    /* height: 100%; */
-    /* background-size: cover; */
-    /* background-repeat: no-repeat; */
-    /* background-position: center; */
-
-    
-
-/* } */
 
 
 
@@ -95,6 +95,11 @@ box-sizing:border-box;
 overflow: hidden;
 display:flex;
 flex-direction:column;
+font-family: "operetta-12", serif;
+font-weight: 400;
+font-style: italic;
+color:purple;
+
 
 
 
@@ -131,7 +136,7 @@ p{
 
 .box {
 
-   background-color:lemonchiffon; 
+   background-color:rgb(255, 250, 205, 0.5); 
    
    box-sizing: border-box;
    width:max-content;
@@ -144,6 +149,8 @@ p{
    
   border: 10px ridge;
       border-color:darkmagenta;
+
+      display:inline-block;
       
    
    
@@ -169,30 +176,18 @@ p{
 
 ul#horiznav{
 margin:0;
-padding:0;/*set both to zero to remove browser inconsistencies*/
-list-style-type:none;/*get rid of bullet points*/
-height:32px/*just to avoid some possible float issues*/
+padding:0;
+list-style-type:none;
+height:32px
 }
 
 #horiznav li{
-float:left;/*float the li element so the menu's horizontal...*/
-width:50px;/*...and set the width*/
+float:left;
+width:50px;
 }
 
-#horiznav li a{
-display:block;/*make the link a block element...*/
-width:50px;/*...with a fixed width...*/
-line-height:30px;/*...and set the line-height to vertically centre the text*/
-text-align:center;/*horizontally centre the text...*/
-color:white;/*...colour it white...*/
-text-decoration:none;/*...and remove the default underline*/
-background-color:#ea31a9;/*give the link an orange background...*/
-border:1px solid white/*...and a white border...*/
-}
 
-#horiznav li a:hover{
-color:#333333/*change the text colour on :hover*/
-}
+
 
 
 
