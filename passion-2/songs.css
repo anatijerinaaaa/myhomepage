@@ -1,0 +1,85 @@
+body {
+
+    max-width: 2000px;
+    margin: 20px;
+    
+
+    
+     background-image: url("vanderpump-background-4.png");
+     background-repeat: no repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     background-position: center;
+}
+
+.ipod {
+
+    width: 300px;
+    height: 500px;
+    padding: 15px;
+}
+
+h1 {
+    font-family: "forma-djr-deck", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 100px;
+    color:purple;
+    /* text-decoration-style: dotted; */
+    
+}
+
+.menu {
+    display: flex;
+    padding: 20px;
+    background-color:hotpink;
+    column-gap:100px;
+
+font-family: "forma-djr-deck", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color:purple;
+}
+
+
+
+.menu-text {
+
+    background-color:greenyellow;
+     font-family: "forma-djr-deck", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color:purple;
+    cursor: pointer;
+    
+
+}
+
+.gifs{
+
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+.gifs2{
+
+    align-items: left;
+    width: 300px;
+    height: 300px;
+}
+
+.gifs3{
+
+    align-items: left;
+    width: 100px;
+    height: 100px;
+
+}
+
+ .container {
+  display: flex;      
+  gap: 100px;           
+}
