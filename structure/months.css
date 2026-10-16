@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+img {
+    max-width:100%;
+}
+
+body {
+
+ background-color:snow;
+place-items:center; 
+ 
+}
+
+
+h1{
+
+    align-self:center;
+}
+p{
+
+    display: flex;
+  gap: 20px;
+}
+
+.left-box-1{
+
+display:flex;
+
+width:350px;
+
+height:200px;
+gap:100px;
+
+background-color:hotpink;
+margin-right:auto;
+align-items:center;
+margin-left:10px;
+
+border-radius:12px;
+
+}
+
+.left-box-2{
+
+    display:flex;
+
+    position:relative;
+    top:200px;
+    left:350px;
+
+width:350px;
+
+height:200px;
+
+gap:100px;
+
+background-color:hotpink;
+
+
+margin-right:auto;
+align-items:center;
+
+border-radius:12px;
+
+
+
+
+}
+
+
+.right-box-1{
+
+    display:flex;
+    position:relative;
+    top:-200px; 
+    right:-350px;
+
+width:350px;
+height:200px;
+gap:100px;
+
+
+background-color: hotpink;
+
+margin-right:auto;
+align-items:center;
+
+border-radius:12px;
+
+
+
+
+}
+
+.right-box-2{
+
+   display:flex;
+
+    position:relative;
+    top:200px;
+    right:-350px;
+
+width:350px;
+
+height:200px;
+
+gap:100px;
+
+background-color:hotpink;
+
+
+margin-right:auto;
+align-items:center;
+
+border-radius:12px;
+
+
+}
+
+.music-player{
+
+    position:absolute;
+    margin-left:25px;
+   
+}

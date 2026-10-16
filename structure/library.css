@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+img {
+    max-width:100%;
+}
+
+body {
+
+  background-color:snow;
+   place-items:center; 
+
+   /* background: linear-gradient(to bottom, snow, rgb(255, 255, 151),rgb(255, 255, 42)); */
+  
+  /* Keeps the background locked in place while the user scrolls */
+  /* background-attachment: fixed;  */
+ 
+}
+
+p {
+
+  display: flex;
+  gap: 20px;
+  
+  position:relative;
+  color:hotpink;
+  
+  /* font-size: 10px; */
+}
+
+h1{
+
+text-align:center;
+
+}
+
+
+.book-shelf{
+
+  height:220px;
+  width:800px;
+  display:flex;
+  
+  
+  padding:5px; 
+  gap:10px;
+  background-color:tan;
+  border: 10px solid rgb(105, 87, 64);
+  
+  
+  
+
+}
+
+.book {
+
+background-color:darkseagreen;
+width:50px;
+height:200px;
+border-radius:10px;
+border: 2px solid rgb(105, 87, 64);
+
+
+
+
+}
+
+
+.months {
+
+  display:flex;
+  gap:100px;
+  /* background-color:ghostwhite; */
+  overflow:hidden;
+  /* background-color:lightyellow; */
+}
+
+
+.dropdown-box{
+
+ position:relative; 
+ top:15px;
+ width:100px;
+ height:auto;
+ color:hotpink;
+ 
+  
+            
+
+/* display:inline-block; */
+
+}
+
+.playlists{
+
+width:100px;
+    height:100px;
+    object-fit:cover;
+    /* margin-right:10px; */
+
+    flex-shrink:0;
+    position:relative;
+    align-items:center;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

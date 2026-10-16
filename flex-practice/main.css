@@ -1,0 +1,59 @@
+
+* {
+  box-sizing: border-box;
+}
+img {
+    max-width:100%;
+}
+
+body{
+  margin:0;
+}
+
+
+.container{
+
+  background-color:violet;
+  padding:10px;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+
+}
+
+.top{
+
+  background-color:lavenderblush;
+  height:20%;
+  display:flex;
+  gap:10px
+  
+  
+
+}
+
+.top-item{
+  background-color:lightseagreen;
+  width:33%;
+}
+
+.bottom{
+
+  background-color:rgb(191, 255, 255);
+  height:80%;
+  display:flex;
+
+}
+
+.left{
+
+background-color:lightpink;
+width:50%;
+
+}
+
+.right{
+  background-color:greenyellow;
+  width:50%;
+}

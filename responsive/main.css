@@ -1,0 +1,62 @@
+
+* {
+  box-sizing: border-box;
+}
+img {
+    max-width:100%;
+}
+
+/* desktop */
+
+body {
+  background:lightgoldenrodyellow;
+  transition: background .5s;
+}
+
+.responsive {
+
+  background-color:mistyrose;
+  padding:20px;
+  margin-bottom:10px;
+  max-width:700px;
+  border: 0px solid orangered;
+
+  transition: all 1s;
+
+}
+
+/* min-width = mobile first, media queries get progressively larger (industry standard) */
+
+/* max-width = desktop fitst, media queries get progressively smaller */
+
+/* tablet */
+@media screen and (max-width:1000px){
+
+  body {
+
+    background:lightblue;
+  }
+
+  .responsive {
+
+    background:hotpink;
+    border:10px solid olivedrab;
+  }
+
+}
+
+/* phone */
+
+@media screen and (max-width:600px){
+
+  body{
+    background-color:lightsalmon;
+  }
+
+  .responsive {
+    
+    font-size:200%;
+
+  }
+
+}

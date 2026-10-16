@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+img {
+    max-width:100%;
+}
+
+body {
+  margin:0;
+}
+
+.fish{
+
+  background-color:lavenderblush;
+  width:50px;
+  height:50px;
+  border-radius:100px;
+  margin-top:600px;
+  position:absolute;
+  
+
+  animation: move 15s infinite linear;
+
+}
+
+.day{
+
+    width:30px;
+    height:30px;
+    background-color:rgb(255, 255, 143);
+    border-radius:100px;
+    /* position: relative; */
+
+}
+
+.night{
+
+     width:30px;
+    height:30px;
+    background-color:rgb(1, 43, 44);
+    border-radius:100px;
+    /* position: relative; */
+
+}
+
+.sunset{
+
+ width:30px;
+    height:30px;
+    background-color:orangered;
+    border-radius:100px;
+
+    border: 2px solid rgb(156, 44, 3);
+    /* position: relative; */
+
+}
+@keyframes move{
+
+  0% {
+left:-100%;
+
+  }
+
+  100%{
+left:100%;
+  }
+  
+}
+
+.container{
+
+  background-color:turquoise;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  position:relative;
+  overflow:hidden;
+}
+
+.sand{
+  background-color:rgb(225, 208, 170);
+  height:150px;
+  width:30000px;
+  display:flex;
+  gap:10px;
+  /* position:absolute; */
+}
+
+
+.ocean{
+
+  background-color:orangered;
+  height:50px;
+  width:3000px;
+  border: 1px dotted rgb(2, 162, 165);
+  /* margin-top:auto; */
+  gap:5px;
+
+  animation: grow 5s infinite alternate;
+  
+  transition: border-color .2s ease-in-out;
+
+
+}
+
+@keyframes grow {
+  0%{
+    scale:1;
+  }
+
+  100%{
+    scale:3;
+  }
+}
+
+.ocean:hover{
+
+  border-color:rgb(242, 255, 255);
+  border:width 2px;
+}
+
+.opacity-low {opacity:0.2;}
+.opacity-medium {opacity:0.5;}
+
+
+.sparkle{
+
+  background-color:rgb(255, 254, 245);
+  height:10px;
+  width:10px;
+  border-radius:100px;
+}
+
+
+
+
+
