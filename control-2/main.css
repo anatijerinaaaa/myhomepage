@@ -1,0 +1,212 @@
+
+* {
+  box-sizing: border-box;
+}
+img {
+    max-width:100%;
+}
+
+body{
+  margin:0;
+}
+
+.buttons {
+  position:fixed;
+  top:10px;
+  left:10px;
+}
+
+.water-container{
+
+ background-color:aquamarine;
+ height:100vh;
+ display:flex;
+ gap:100px;
+
+
+}
+
+.water{
+
+  height:400px;
+  width:200px;
+  position:fixed;
+  top:175px;
+  left:300px;
+  gap:500px;
+  display:none;
+}
+
+.water.reveal{
+
+  display:block;
+  transition:1s;
+
+}
+
+.container{
+
+  background-color:rgb(124, 179, 124);
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  overflow:hidden;
+
+
+}
+
+.mat{
+
+  height:600px;
+  width:200px;
+  top:75px;
+  position:fixed;
+  background-color:rgb(172, 110, 141);
+
+}
+
+
+
+.mat-2{
+
+  height:600px;
+  width:200px;
+  position:fixed;
+  background-color:rgb(255, 224, 240,0);
+  
+
+}
+
+.mat-3{
+
+  height:600px;
+  width:200px;
+  position:fixed;
+  background-color:rgb(255, 224, 240,0);
+  
+
+}
+
+.lotus-glow{
+  height:600px;
+  width:200px;
+  background-color:rgb(172, 110, 141);
+  box-shadow: 0 0 15px 10px rgb(255, 182, 193,0.5);
+  transition: 1s;
+}
+
+.tree-glow{
+
+  height:600px;
+  width:200px;
+  background-color:rgb(172, 110, 141.0);
+  box-shadow: 0 0 15px 5px rgb(19, 84, 33);
+  transition: 1s;
+}
+
+.lotus-pose{
+
+  height:50px;
+  width:50px;
+  position:relative;
+  /* bottom:600px;
+  right: 450px; */
+  right:-200px;
+  bottom:200px;
+  /* z-index:999; */
+
+  display:block;
+
+  
+
+}
+
+.tree-pose{
+
+  height:50px;
+  width:50px;
+  position:relative;
+  /* bottom:600px;
+  right: 450px; */
+  right:-200px;
+  bottom:175px;
+
+  display:block;
+
+}
+
+.mountain-pose{
+
+  height:50px;
+  width:50px;
+  position:relative;
+  /* bottom:600px;
+  right: 450px; */
+  right:-200px;
+  bottom:100px;
+
+  display:block;
+}
+
+/* testing */
+
+.lotus-reveal-div {
+  width:1000px;
+  height:600px;
+  position:absolute;
+  padding:10px;
+  /* margin-right:auto; */
+  background-color:rgb(75, 240, 255,0);
+  display:none;
+}
+
+
+.tree-reveal-div {
+  width:1000px;
+  height:600px;
+  position:absolute;
+  padding:10px;
+  /* margin-left:auto; */
+  background-color:rgb(249, 255, 75,0);
+  display:none;
+}
+
+
+.mountain-reveal-div{
+
+   width:1000px;
+  height:600px;
+  position:absolute;
+  padding:10px;
+  /* margin-left:auto; */
+  background-color:rgb(249, 255, 75,0);
+  display:none;
+}
+
+.num {
+
+  width:80px;
+  height:80px;
+  position: absolute;
+  padding: 10px;
+
+}
+.num2 {
+
+  width:130px;
+  height:130px;
+  position: absolute;
+  padding: 10px;
+
+}
+
+.num3 {
+
+  width:200px;
+  height:80px;
+  position: absolute;
+  padding: 10px;
+
+}

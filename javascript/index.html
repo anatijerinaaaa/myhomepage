@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+<title>javascript</title>
+
+<link rel="stylesheet" href="main.css">
+
+
+
+</head>
+
+<body>
+    <button onclick="change()">menu.</button>
+
+    <button onclick="glow()">glow</button>
+
+    <div class="menu">
+        Hello World!
+    </div>
+
+   <div class="gear"></div>
+
+
+<script>
+
+var menu = document.querySelector(".menu");
+var gear =  document.querySelector(".gear");
+
+
+function change() {
+  console.log('it works!');
+  menu.classList.toggle("active");
+  gear.classList.toggle("spin");
+  document.body.classList.toggle("dark");
+
+  
+}
+
+function glow() {
+    console.log('it works!');
+    gear.classList.toggle("glow");
+    menu.classList.toggle("glow");
+   
+}
+
+</script>
+
+</body>
+
+</html>

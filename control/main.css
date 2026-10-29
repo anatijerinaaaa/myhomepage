@@ -1,0 +1,177 @@
+
+* {
+  box-sizing: border-box;
+}
+img {
+    max-width:100%;
+}
+
+body {
+  margin:0;
+  
+}
+
+
+
+.container{
+  background-color: rgb(124, 179, 124);
+  /* background-image: url(lotus-real.png);
+background-size:5%; */
+  height: 100vh;
+  display:flex;
+  flex-direction:column;
+ 
+  justify-content:center;
+  align-items:center;
+  
+  
+
+  
+}
+
+.buttons {
+  position:fixed;
+  top:10px;
+  left:10px;
+}
+
+
+
+
+.mat{
+
+  height: 600px;
+  width:200px;
+  position:fixed;
+  background-color: rgb(172, 110, 141);
+  box-shadow: 0 0 15px 5px lightgoldenrodyellow;
+
+
+  
+
+
+}
+
+.lotus-icon{
+  height:50px;
+  width:50px;
+  position: fixed;
+  bottom:600px;
+  right:450px;
+  display:block; 
+  
+  
+  
+}
+
+.tree-icon{
+   height:50px;
+  width:50px;
+  position: fixed;
+  bottom:600px;
+  right:450px;
+  display:block; 
+}
+
+.draggable {
+  cursor:grab;
+}
+
+.lotus-garden{
+  position:absolute;
+  padding: 10px;
+  height: 50px;
+  width:50px;
+
+  display:none;
+
+}
+
+.tree-garden{
+  position:absolute;
+  padding: 10px;
+  height: 50px;
+  width:50px;
+
+  display:none;
+}
+
+.lotus-garden.reveal{
+  display:block;
+}
+
+.tree-garden.reveal{
+  display:block;
+}
+
+/* testing */
+
+#left {
+  width: 600px;
+  height: 600px;
+  position: relative;
+  background: rgb(221, 114, 203, 0);
+
+
+  padding: 20px;
+
+  margin-right:auto;
+
+  display:none;
+
+
+
+
+
+
+  
+}
+
+#right {
+
+  width: 600px;
+  height: 600px;
+  position: relative;
+  background: rgb(213, 207, 25, 0);
+  padding: 20px;
+  margin-left:auto;
+
+  display:none;
+}
+
+.num {
+  width:80px;
+  height:80px;
+  position: absolute;
+  padding: 10px;
+
+  /* display:none; */
+  /* background: pink;
+  border: 1px solid; */
+
+}
+
+.num2 {
+
+  width:80px;
+  height:80px;
+  position: absolute;
+  padding: 10px;
+
+}
+
+#left.reveal{
+display:contents;
+
+transition:linear 1s;
+
+
+}
+
+
+#right.reveal{
+display:contents;
+
+
+}
+
